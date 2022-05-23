@@ -1,5 +1,5 @@
 # CI601-Sports_Brighton
-This is the coursework submitted to the CI601 - Computing Project
+This is the project assignment for the CI601 - Computing Project
 This website aims to provide a convenient place students 
 at the University of Brighton can buy sportswear at an affordable price.
 
