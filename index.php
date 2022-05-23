@@ -33,10 +33,10 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="index.php">About</a>
+        <a class="nav-link" href="index.html">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.php">Contact</a>
+        <a class="nav-link" href="index.html">Contact</a>
       </li>
       <li class="nav-item">
         <a class="nav-link active" href="checkout.php">Checkout</a>
@@ -72,7 +72,7 @@ while ($row = $result->fetch_assoc()):
         <div class="col-sm-6 col-md-4 col-lg-3">
             <div class="card-deck">
                 <div class="card p-2 border-secondary mb-2">
-                    <img src="<?php $row['product_image']?>" class="card-img-top" height="250">
+                    <img src="<?=$row['product_image']?>" class="card-img-top" height="250">
                     <div class="card-body-p1">
                         <h4 class="card-title text-center text-info"><?=$row['product_name']?></h4>
                         <h5 class="card-text text-center text-danger"><i class="fas fa-pound-sign"></i>	&#xf154;<?=number_format($row['product_price'], 2)?>/-</h5>
